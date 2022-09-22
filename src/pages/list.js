@@ -1,10 +1,13 @@
 import React from "react";
-
+import ArticleCard from "../components/ArticleCard";
 function List() {
     return (
-        <div>
-            <h1>Aritcles List</h1>
-        </div>
+        <main className="page-wrapper">
+            <h1 className="title"> Articles</h1>
+            <ArticleCard imageAlt="hi" imageSrc="bye" />
+            <ArticleCard />
+            <ArticleCard />
+        </main>
     );
 }
 

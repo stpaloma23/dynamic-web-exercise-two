@@ -1,0 +1,53 @@
+.page-wrapper {
+    padding: 50px 100px 50px 100px;
+}
+.page-wrapper > h1 {
+    font-size: 64px;
+}
+.article-card-wrapper {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    padding: 20px 30px;
+    margin-bottom: 40px;
+    height: 260px;
+    width: 100%;
+}
+.article-card--photo {
+    flex-basis: 28%;
+    background-color: grey;
+    height: 100%;
+}
+.article-card--photo img {
+    height: 100%;
+    width: 100%;
+}
+.article-card--text {
+    flex-basis: 82%;
+    margin-left: 20px;
+}
+.article-card--text h2 {
+    font-size: 40px;
+    margin: 0px;
+}
+.article-header {
+    display: flex;
+    justify-content: center;
+}
+.article-header h1 {
+    font-size: 64px;
+    margin: 0;
+}
+.article-header p {
+    font-size: 28px;
+}
+.article-header h2 {
+    font-size: 20px;
+}
+.article-page-header-text {
+    width: 50%;
+}
+.article-contants-wrapper {
+    width: 50%;
+}
