@@ -16,6 +16,7 @@ function List() {
                     title={article.title}
                     imageAlt={article.image.alt}
                     imageSrc={article.image.url}
+                    id={article.id}
                 />
             ))}
         </main>
